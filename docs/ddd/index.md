@@ -1,0 +1,13 @@
+# DDD index
+- [DDD-0001: Language](DDD-0001.md)
+- [DDD-0002: Intake](DDD-0002.md)
+- [DDD-0003: Graph](DDD-0003.md)
+- [DDD-0004: Authorization](DDD-0004.md)
+- [DDD-0005: Memory](DDD-0005.md)
+- [DDD-0006: Causal](DDD-0006.md)
+- [DDD-0007: Risk](DDD-0007.md)
+- [DDD-0008: Planning](DDD-0008.md)
+- [DDD-0009: Evidence](DDD-0009.md)
+- [DDD-0010: Execution](DDD-0010.md)
+- [DDD-0011: Recovery](DDD-0011.md)
+- [DDD-0012: Operations](DDD-0012.md)
