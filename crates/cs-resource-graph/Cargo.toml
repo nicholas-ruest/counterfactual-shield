@@ -1,0 +1,13 @@
+[package]
+name = "cs-resource-graph"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cs-types.workspace = true
+cs-action.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true

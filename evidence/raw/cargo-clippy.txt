@@ -1,0 +1,10 @@
+    Checking cs-rvf v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-rvf)
+    Checking cs-ruvector v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-ruvector)
+    Checking cs-verifier v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-verifier)
+    Checking cs-ledger v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-ledger)
+    Checking cs-executor-gate v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-executor-gate)
+    Checking cs-orchestrator v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-orchestrator)
+    Checking cs-api v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-api)
+    Checking cs-cli v0.1.0 (/home/ruv/work/counterfactual-shield/crates/cs-cli)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.78s
+exit_code=0

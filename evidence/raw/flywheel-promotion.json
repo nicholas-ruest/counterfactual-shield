@@ -1,0 +1,26 @@
+{
+  "package": "@metaharness/flywheel@0.1.12",
+  "evidence": {
+    "baseline": {
+      "primary": 22,
+      "noopRate": 1,
+      "costPerWin": 1,
+      "regressed": false
+    },
+    "candidate": {
+      "primary": 28,
+      "noopRate": 0,
+      "costPerWin": 0.8,
+      "regressed": false
+    },
+    "anchor": {
+      "baseline": 22,
+      "candidate": 28
+    }
+  },
+  "decision": {
+    "promote": true,
+    "reasons": []
+  },
+  "fingerprint": "c5942e7c9bf8f28fe7af47a6ec3887d11eeb3f8c8e8601cc6a7a54969ea0b981"
+}

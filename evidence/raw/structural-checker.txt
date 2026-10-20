@@ -1,0 +1,12 @@
+{
+  "status": "STRUCTURAL_PASS_REQUIRES_EVIDENCE_REVIEW",
+  "counts": {
+    "adrs": 25,
+    "ddds": 12,
+    "crates": 23,
+    "animatedSvgs": 2
+  },
+  "failures": [],
+  "limitations": "Structural checks do not prove meaningful architecture, linked workspace membership, executed upstream integrations, benchmark validity, CI success, or publication authorization."
+}
+exit_code=0

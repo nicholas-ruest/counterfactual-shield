@@ -1,0 +1,12 @@
+[package]
+name = "cs-attribution"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cs-counterfactual.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true

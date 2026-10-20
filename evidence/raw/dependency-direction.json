@@ -1,0 +1,8 @@
+{
+  "local_crates": 23,
+  "dependency_edges": 50,
+  "executable_crates": [
+    "cs-cli"
+  ],
+  "crates_without_callers_or_entrypoint": []
+}
