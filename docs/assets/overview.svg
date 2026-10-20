@@ -10,7 +10,7 @@
 <text x="72" y="124" fill="#9fb3c8" font-family="system-ui,sans-serif" font-size="19">Prospective authorization for autonomous action chains</text>
 <g font-family="system-ui,sans-serif" font-size="18" text-anchor="middle">
  <g fill="#16324f" stroke="#4cc9f0" stroke-width="2"><rect x="70" y="190" width="180" height="96" rx="16"/><rect x="330" y="190" width="180" height="96" rx="16"/><rect x="590" y="190" width="180" height="96" rx="16"/><rect x="850" y="190" width="260" height="96" rx="16"/></g>
- <g fill="#f5f7fa"><text x="160" y="228">Action DAG</text><text x="160" y="254" fill="#9fb3c8" font-size="14">typed intent</text><text x="420" y="228">Policy + Recall</text><text x="420" y="254" fill="#9fb3c8" font-size="14">Cedar · RuVector</text><text x="680" y="228">Risk + Evidence</text><text x="680" y="254" fill="#9fb3c8" font-size="14">conformal · RVF</text><text x="980" y="228">Scoped execution grant</text><text x="980" y="254" fill="#9fb3c8" font-size="14">single use · ledgered</text></g>
+ <g fill="#f5f7fa"><text x="160" y="228">Action DAG</text><text x="160" y="254" fill="#9fb3c8" font-size="14">typed intent</text><text x="420" y="228">Policy + Recall</text><text x="420" y="254" fill="#9fb3c8" font-size="14">Cedar  -  RuVector</text><text x="680" y="228">Risk + Evidence</text><text x="680" y="254" fill="#9fb3c8" font-size="14">conformal  -  RVF</text><text x="980" y="228">Scoped execution grant</text><text x="980" y="254" fill="#9fb3c8" font-size="14">single use  -  ledgered</text></g>
 </g>
 <path id="route" d="M250 238 H330 M510 238 H590 M770 238 H850" stroke="#4cc9f0" stroke-width="4" stroke-linecap="round" fill="none" stroke-dasharray="8 10">
  <animate attributeName="stroke-dashoffset" from="36" to="0" dur="1.6s" repeatCount="indefinite"/>
