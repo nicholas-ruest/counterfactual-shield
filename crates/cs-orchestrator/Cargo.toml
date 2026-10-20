@@ -1,0 +1,33 @@
+[package]
+name = "cs-orchestrator"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cs-types.workspace = true
+cs-action.workspace = true
+cs-resource-graph.workspace = true
+cs-policy-model.workspace = true
+cs-cedar.workspace = true
+cs-incidents.workspace = true
+cs-embedding.workspace = true
+cs-ruvector.workspace = true
+cs-counterfactual.workspace = true
+cs-attribution.workspace = true
+cs-risk-control.workspace = true
+cs-plan.workspace = true
+cs-rvf.workspace = true
+cs-ledger.workspace = true
+cs-verifier.workspace = true
+cs-executor-gate.workspace = true
+cs-recovery.workspace = true
+cs-config.workspace = true
+cs-telemetry.workspace = true
+cs-evaluation.workspace = true
+serde.workspace = true
+tempfile.workspace = true
+thiserror.workspace = true
+
+[lints]
+workspace = true

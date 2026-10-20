@@ -1,0 +1,16 @@
+[package]
+name = "cs-counterfactual"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cs-action.workspace = true
+cs-resource-graph.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+cs-types.workspace = true

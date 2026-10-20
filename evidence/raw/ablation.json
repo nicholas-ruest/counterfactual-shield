@@ -1,0 +1,79 @@
+[
+  {
+    "mode": "Combined",
+    "released": true,
+    "recalled": 3,
+    "evidence": true,
+    "policy_enforced": true,
+    "robust": true,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 28.0
+  },
+  {
+    "mode": "NoRuVector",
+    "released": true,
+    "recalled": 0,
+    "evidence": true,
+    "policy_enforced": true,
+    "robust": true,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 22.0
+  },
+  {
+    "mode": "NoRvf",
+    "released": false,
+    "recalled": 3,
+    "evidence": false,
+    "policy_enforced": true,
+    "robust": true,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 25.0
+  },
+  {
+    "mode": "NoCedar",
+    "released": false,
+    "recalled": 3,
+    "evidence": true,
+    "policy_enforced": false,
+    "robust": true,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 24.0
+  },
+  {
+    "mode": "NoRisk",
+    "released": false,
+    "recalled": 3,
+    "evidence": true,
+    "policy_enforced": true,
+    "robust": false,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 23.0
+  },
+  {
+    "mode": "EnterpriseOnly",
+    "released": true,
+    "recalled": 0,
+    "evidence": true,
+    "policy_enforced": true,
+    "robust": true,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 22.0
+  },
+  {
+    "mode": "RuvnetOnly",
+    "released": false,
+    "recalled": 3,
+    "evidence": true,
+    "policy_enforced": false,
+    "robust": true,
+    "critical_before": 5,
+    "critical_after": 4,
+    "objective": 24.0
+  }
+]

@@ -1,0 +1,7 @@
+    Finished `release` profile [optimized] target(s) in 0.21s
+run=1 elapsed_ns=145610076
+run=2 elapsed_ns=111762783
+run=3 elapsed_ns=113747764
+run=4 elapsed_ns=102538047
+run=5 elapsed_ns=121764867
+exit_code=0

@@ -1,0 +1,38 @@
+{
+  "id": "repo-native",
+  "version": "0.1.0",
+  "createdAt": "2026-10-20T01:53:51.103Z",
+  "taskHash": "e66652cfd99fde4d2c0064d9c768fd771c8f46b214dcc3d1f7ad3ba53f04b4f1",
+  "tasks": [
+    {
+      "id": "task-0001",
+      "repo": "/home/ruv/work/counterfactual-shield",
+      "commit": "WORKDIR",
+      "title": "Repo native smoke task",
+      "prompt": "Keep the repository test suite green.",
+      "publicTestCommand": "npm test",
+      "hiddenTestCommand": "npm test",
+      "regressionTestCommand": "npm test",
+      "timeoutMs": 300000,
+      "maxCostUsd": 2,
+      "allowedMutationFiles": [],
+      "blockedFiles": [
+        ".env",
+        "package-lock.json",
+        "pnpm-lock.yaml",
+        "yarn.lock",
+        ".github/workflows"
+      ],
+      "successCriteria": [
+        "public test passes",
+        "hidden test passes",
+        "regression suite passes"
+      ],
+      "difficulty": 1,
+      "tags": [
+        "smoke",
+        "repo-native"
+      ]
+    }
+  ]
+}

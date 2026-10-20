@@ -1,0 +1,12 @@
+[package]
+name = "cs-plan"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cs-attribution.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,17 @@
+[package]
+name = "cs-verifier"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+cs-policy-model.workspace = true
+cs-risk-control.workspace = true
+cs-rvf.workspace = true
+serde.workspace = true
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+cs-plan.workspace = true

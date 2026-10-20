@@ -1,0 +1,47 @@
+[workspace]
+resolver = "2"
+members = ["crates/cs-types","crates/cs-action","crates/cs-resource-graph","crates/cs-policy-model","crates/cs-cedar","crates/cs-incidents","crates/cs-embedding","crates/cs-ruvector","crates/cs-counterfactual","crates/cs-attribution","crates/cs-risk-control","crates/cs-plan","crates/cs-rvf","crates/cs-ledger","crates/cs-verifier","crates/cs-executor-gate","crates/cs-recovery","crates/cs-config","crates/cs-telemetry","crates/cs-evaluation","crates/cs-orchestrator","crates/cs-api","crates/cs-cli"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+
+[workspace.dependencies]
+anyhow = "1.0.100"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+thiserror = "2.0.17"
+tempfile = "3.23.0"
+cedar-policy = "4.14.0"
+ruvector-core = "2.4.0"
+rvf-crypto = "0.2.0"
+cs-types = { path = "crates/cs-types" }
+cs-action = { path = "crates/cs-action" }
+cs-resource-graph = { path = "crates/cs-resource-graph" }
+cs-policy-model = { path = "crates/cs-policy-model" }
+cs-cedar = { path = "crates/cs-cedar" }
+cs-incidents = { path = "crates/cs-incidents" }
+cs-embedding = { path = "crates/cs-embedding" }
+cs-ruvector = { path = "crates/cs-ruvector" }
+cs-counterfactual = { path = "crates/cs-counterfactual" }
+cs-attribution = { path = "crates/cs-attribution" }
+cs-risk-control = { path = "crates/cs-risk-control" }
+cs-plan = { path = "crates/cs-plan" }
+cs-rvf = { path = "crates/cs-rvf" }
+cs-ledger = { path = "crates/cs-ledger" }
+cs-verifier = { path = "crates/cs-verifier" }
+cs-executor-gate = { path = "crates/cs-executor-gate" }
+cs-recovery = { path = "crates/cs-recovery" }
+cs-config = { path = "crates/cs-config" }
+cs-telemetry = { path = "crates/cs-telemetry" }
+cs-evaluation = { path = "crates/cs-evaluation" }
+cs-orchestrator = { path = "crates/cs-orchestrator" }
+cs-api = { path = "crates/cs-api" }
+cs-cli = { path = "crates/cs-cli" }
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+all = "deny"
